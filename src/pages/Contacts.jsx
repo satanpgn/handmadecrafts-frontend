@@ -1,36 +1,3 @@
-// import React from 'react';
-
-// const ContactUs = () => {
-//   return (
-//     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', backgroundColor: '#f7f7f7' }}>
-//       <div style={{ display: 'flex', fontFamily: 'Arial, sans-serif', maxWidth: '800px', maxHeight: '900px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)', borderRadius: '10px', overflow: 'hidden', backgroundColor: '#fff' }}>
-//         <div style={{ flex: 1, padding: '40px' }}>
-//           <h1 style={{ textAlign: 'left', color: '#333', fontWeight: 'bold' }}>Contact us</h1>
-//           <form style={{ display: 'flex', flexDirection: 'column' }}>
-//             <input type="text" placeholder="Name" style={inputStyle} />
-//             <input type="email" placeholder="Email" style={inputStyle} />
-//             <input type="text" placeholder="Subject" style={inputStyle} />
-//             <textarea placeholder="Create a message here" style={{ ...inputStyle, height: '100px' }}></textarea>
-//             <button type="submit" style={{ padding: '10px', backgroundColor: '#333', color: '#fff', border: 'none', borderRadius: '5px', cursor: 'pointer', marginTop: '10px' }}>Send Message</button>
-//           </form>
-//         </div>
-//         <div style={{ flex: 1 }}>
-//           <img src="https://img.freepik.com/free-photo/high-angle-controller-gaming-chair_23-2149829137.jpg?ga=GA1.1.984481469.1720942599&semt=ais_user" alt="Contact Us" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const inputStyle = {
-//   padding: '10px',
-//   marginBottom: '10px',
-//   borderRadius: '5px',
-//   border: '1px solid #ccc',
-//   width: '100%'
-// };
-
-// export default ContactUs;
 
 import React, { useState } from 'react';
 
@@ -73,6 +40,14 @@ const ContactUs = () => {
               type="email"
               name="email"
               placeholder="Email"
+              value={formData.email}
+              onChange={handleInputChange}
+              style={inputStyle}
+            />
+            <input
+              type="address"
+              name="address"
+              placeholder="address"
               value={formData.email}
               onChange={handleInputChange}
               style={inputStyle}
