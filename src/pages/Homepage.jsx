@@ -151,14 +151,22 @@ const HomePage = () => {
         <h2 style={{ color: 'black', fontWeight: 'bold' }}>Highly Recommended</h2>
         <div style={{ display: 'flex', alignItems: 'center', padding: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)', borderRadius: '8px' }}>
           <img
-            src='https://cdn.shopify.com/s/files/1/1532/8355/files/Cool_Break2_3f443b2c-5950-4a5a-b59d-66c01ef83f4a.jpg?v=1654639837'
+            src='https://www.holidify.com/images/cmsuploads/compressed/shopping-1117294_960_720_20190823164326.jpg'
             alt='Recommended Product'
             style={{ width: '40%', height: '500px', objectFit: 'cover', borderRadius: '8px', marginRight: '20px' }}
           />
           <div style={{ textAlign: 'left' }}>
-            <h3 style={{ fontSize: '18px', color: '#333', margin: '10px 0' }}>Male Dress</h3>
+            <h3 style={{ fontSize: '18px', color: '#333', margin: '10px 0' }}>Jewellery Items</h3>
             <p style={{ fontSize: '16px', color: '#333', margin: '5px 0' }}>
-              This fits for all the slim body with average sizes. In Store visit you can find the many items with similiarity and discounts.
+              This fits for all the male, female, young and old similiarity and discounts.
+              The best selection of beads and jewellery can be found in the local markets of Kathmandu.
+               Nepal holds a good name for selling items that are authentic and made in Nepal itself.
+                The jewellery there are quite affordable and would not lead to a pocket crunch. 
+                The Nepalese artisans hold expertise in carving out unique designs and product development.
+                 Silver making is a traditional occurrence in Nepal and has been passed down generations. 
+                 It is a highly labour intensive job and creating more opportunities in this sector would directly result in more jobs for them. 
+                 Markets of Nepal also sell a variety of locally made or Indian jewellery. 
+                 Yak bone jewellery, with its unique engravings and designs, is also a hit among tourists. 
 
           
             </p>
