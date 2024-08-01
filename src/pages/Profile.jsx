@@ -35,7 +35,7 @@ const Profile = () => {
           <p>Email: pankaj@gmail.com</p>
           <p>Location: Bagdol,Nayadobato Lalitpur</p>
           <p>Age: 23</p>
-          <p>Bio: Hlo, It's me Pankaj Singj and I am Developer trying to develop my website for retail business</p>
+          <p>Bio: Hello, It's me Pankaj Singh and I am Developer trying to develop my website for retail business</p>
         </div>
       </div>
     </div>
