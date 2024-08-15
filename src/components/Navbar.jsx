@@ -54,7 +54,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <div>
-            <Link className="navbar-brand fw-bold fs-4" to="#" style={{ color: 'Green', fontFamily: 'Arial, sans-serif' }}>
+            <Link className="navbar-brand fw-bold fs-4" to="#" style={{ color: 'Green', fontFamily: 'Public Sans' }}>
               Handmade Crafts
             </Link>
             <button
@@ -76,7 +76,7 @@ const Navbar = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className="nav-link active me-2 fw" aria-current="page" to={"/"} 
-                   style={{ fontFamily: 'Arial, sans-serif' }}>
+                   style={{ fontFamily: 'Public Sans' }}>
                    HOME
                  </Link>
                </li>            
@@ -87,14 +87,14 @@ const Navbar = () => {
                    role="button"
                    data-bs-toggle="dropdown"
                    aria-expanded="false"
-                   style={{ fontFamily: 'Arial, sans-serif' }}
+                   style={{ fontFamily: 'Public Sans' }}
                  >
                    CATEGORY
                  </Link>
                  <ul className="dropdown-menu">
                    <li>
                      <Link className="dropdown-item" to="/sales"
-                     style={{ fontFamily: 'Arial, sans-serif' }}>
+                     style={{ fontFamily: 'Public Sans' }}>
                        Clothes
                      </Link>
                    </li>
@@ -103,7 +103,7 @@ const Navbar = () => {
                    </li>
                    <li>
                      <Link className="dropdown-item" to="/sales"
-                     style={{ fontFamily: 'Arial, sans-serif' }}>
+                     style={{ fontFamily: 'Public Sans' }}>
                        Home Decorations
                      </Link>
                    </li>
@@ -112,7 +112,7 @@ const Navbar = () => {
                    </li>
                    <li>
                      <Link className="dropdown-item" to="/sales"
-                     style={{ fontFamily: 'Arial, sans-serif' }}>
+                     style={{ fontFamily: 'Public Sans' }}>
                        Jackets
                      </Link>
                    </li>
@@ -120,19 +120,19 @@ const Navbar = () => {
                </li>
                <li className="nav-item">
                  <Link className="nav-link active me-2 fw" aria-current="page" to={"/sales"} 
-                 style={{ fontFamily: 'Arial, sans-serif' }}>
+                 style={{ fontFamily: 'Public Sans' }}>
                    SALES
                  </Link>
                </li>
                <li className="nav-item">
                  <Link className="nav-link active me-2 fw" aria-current="page" to={"/contacts"} 
-                 style={{ fontFamily: 'Arial, sans-serif' }}>
+                 style={{ fontFamily: 'Public Sans' }}>
                    CONTACTS
                  </Link>
                </li>
                <li className="nav-item">
                  <Link className="nav-link active me-2 fw" aria-current="page" to={"/aboutus"} 
-                 style={{ fontFamily: 'Arial, sans-serif' }}>
+                 style={{ fontFamily: 'Public Sans' }}>
                    ABOUT US
                  </Link>
                </li>
@@ -157,8 +157,22 @@ const Navbar = () => {
               </div>
             ) : (
               <div className="d-flex">
-                <Link className="btn btn-outline-dark me-2" to={'/login'}>Login</Link>
-                <Link className="btn btn-outline-dark" to={'/register'}>Register</Link>
+                {/* <Link className="btn btn-outline-dark me-2" to={'/login'}>Login</Link> */}
+                <Link
+    className="btn btn-outline-dark me-2"
+    to={'/login'}
+    style={{ fontFamily: 'Public Sans' }}
+  >
+    Login
+  </Link>
+                {/* <Link className="btn btn-outline-dark" to={'/register'}>Register</Link> */}
+                <Link
+    className="btn btn-outline-dark me-2"
+    to={'/register'}
+    style={{ fontFamily: 'Pulbic Sans' }}
+  >
+    Register
+  </Link>
               </div>
             )}
           </div>
@@ -173,8 +187,8 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="container">
-      <h1 style={{ color: 'black', fontFamily: 'Arial, sans-serif' }}>WELCOME TO HAND MADE CRAFTS</h1>
-      <p style={{ color: 'black', fontFamily: 'Arial, sans-serif' }}>Your ultimate destination for all your hand made crafts items</p>
+      <h1 style={{ color: 'black', fontFamily: 'Public Sans' }}>WELCOME TO HAND MADE CRAFTS</h1>
+      <p style={{ color: 'black', fontFamily: 'Public Sans' }}>Your ultimate destination for all your hand made crafts items</p>
         {/* <img src="https://cdn11.bigcommerce.com/s-p00ofs6bom/images/stencil/1280w/carousel/83/Mothers_Day_CC_Orchids33.jpg?c=1" /> */}
       </div>
     </div>

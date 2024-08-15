@@ -137,9 +137,9 @@ const AdminDashboard = () => {
                                         <option value="Clothes">Clothes</option>
                                         <option value="Home Design">Home Design</option>
                                         <option value="Statue">Statues</option>
-                                      <option value="Birthday Celebration">Sale</option>
-                                        <option value="Birthday Celebration">Baby</option>
-                                        <option value="Birthday Celebration">Womens</option>
+                                      <option value="Sale">Sale</option>
+                                        <option value="Baby">Baby</option>
+                                        <option value="Womens">Womens</option>
                                         <option value="Woolen">Woolen</option>
                                         <option value="Bags">Bags</option>
                                         <option value=""></option>
